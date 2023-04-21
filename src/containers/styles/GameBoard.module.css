@@ -1,9 +1,28 @@
-
 .gameBoard {
+  text-align: center;
+}
 
+.overlay {
+  text-align: center;
+  padding-top: 10%;
+  position: fixed;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(0,0,0,0.7); /* Black background with opacity */
+  z-index: 2;
+}
+
+.overlayText {
+  color: antiquewhite;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: large;
 }
 
 .td {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
