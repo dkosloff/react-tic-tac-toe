@@ -1,0 +1,15 @@
+.button {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.xButton {
+  background-image: url("./../../../public/x_image.svg");
+  background-size: contain;
+}
+
+.oButton {
+  background-image: url("./../../../public/o_image.svg");
+  background-size: contain;
+}
